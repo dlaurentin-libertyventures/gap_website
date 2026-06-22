@@ -41,6 +41,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.font-display {
+  font-optical-sizing: auto;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

@@ -5,9 +5,11 @@ import { siteConfig } from "@/config/site";
 
 const literata = Literata({
   subsets: ["latin"],
-  weight: ["400", "700"],
   variable: "--font-literata",
   display: "swap",
+  weight: "variable",
+  style: ["normal", "italic"],
+  axes: ["opsz"],
 });
 
 const inter = Inter({
