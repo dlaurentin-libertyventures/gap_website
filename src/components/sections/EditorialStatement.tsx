@@ -10,15 +10,15 @@ export function EditorialStatement() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="max-w-3xl"
+          className="max-w-5xl"
         >
           <div className="h-px bg-sandstone mb-10 w-16" />
           <h2
             className="font-display font-bold text-forest-green leading-tight"
             style={{ fontSize: "clamp(1.75rem, 4vw, 3rem)" }}
           >
-            Want real change in higher education?{" "}
-            <br className="hidden md:block" />
+            Want real change in higher education?
+            <br />
             We first need real change in{" "}
             <em className="not-italic text-terra-cotta">accreditation.</em>
           </h2>

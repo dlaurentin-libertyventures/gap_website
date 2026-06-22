@@ -25,7 +25,7 @@ export function VisionSection() {
   return (
     <section id="vision" className="bg-ivory py-20 md:py-32">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-14 max-w-2xl">
+        <div className="mb-14 max-w-4xl">
           <SectionEyebrow text="Our vision" />
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -35,7 +35,9 @@ export function VisionSection() {
             className="font-display font-bold text-forest-green mt-3"
             style={{ fontSize: "clamp(1.75rem, 3.5vw, 3rem)" }}
           >
-            A new accreditor for the next era of higher education.
+            A new accreditor for the next era
+            <br />
+            of higher education.
           </motion.h2>
         </div>
 
