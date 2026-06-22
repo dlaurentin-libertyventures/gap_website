@@ -3,7 +3,6 @@ import { SiteFooter } from "@/components/layout/SiteFooter";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { EditorialStatement } from "@/components/sections/EditorialStatement";
 import { ProblemSection } from "@/components/sections/ProblemSection";
-import { QuotesInterlude } from "@/components/sections/QuotesInterlude";
 import { OpportunitySection } from "@/components/sections/OpportunitySection";
 import { VisionSection } from "@/components/sections/VisionSection";
 import { AboutSection } from "@/components/sections/AboutSection";
@@ -21,7 +20,6 @@ export default function Home() {
         <EditorialStatement />
         <ProblemSection />
         <ReportCTA />
-        <QuotesInterlude />
         <OpportunitySection />
         <VisionSection />
         <AboutSection />

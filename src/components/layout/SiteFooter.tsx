@@ -16,20 +16,13 @@ export function SiteFooter() {
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
           <div className="md:col-span-4">
-            <Link href="/" className="inline-flex items-center gap-3 mb-4">
-              <Image
-                src="/logos/gap-working-logo-mark-ivory.png"
-                alt="GAP"
-                width={32}
-                height={32}
-                className="h-8 w-auto"
-              />
+            <Link href="/" className="inline-block mb-4">
               <Image
                 src="/logos/gap-working-logo-ivory.png"
                 alt="Global Accreditation Project"
-                width={160}
-                height={32}
-                className="h-7 w-auto"
+                width={560}
+                height={112}
+                className="h-20 sm:h-24 w-auto max-w-full"
               />
             </Link>
             <a
@@ -66,16 +59,6 @@ export function SiteFooter() {
                   className="font-sans text-sm text-pine hover:text-clay transition-colors"
                 >
                   Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={siteConfig.giveButter.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-sans text-sm text-clay hover:text-ivory transition-colors"
-                >
-                  Support GAP →
                 </Link>
               </li>
             </ul>
