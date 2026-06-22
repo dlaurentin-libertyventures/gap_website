@@ -1,26 +1,59 @@
 @import "tailwindcss";
 
+@theme {
+  --color-forest-green: #1b4332;
+  --color-dark-green: #0f2f24;
+  --color-terra-cotta: #bf6e46;
+  --color-clay: #e6a07a;
+  --color-pine: #667f72;
+  --color-cloud: #e6e4de;
+  --color-ivory: #faf9f4;
+  --color-sandstone: #aaa096;
+  --color-graphite: #56524c;
+
+  --font-display: var(--font-literata), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+
+  --max-width-content: 1280px;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --forest-green: #1b4332;
+  --dark-green: #0f2f24;
+  --terra-cotta: #bf6e46;
+  --clay: #e6a07a;
+  --pine: #667f72;
+  --cloud: #e6e4de;
+  --ivory: #faf9f4;
+  --sandstone: #aaa096;
+  --graphite: #56524c;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--ivory);
+  color: var(--graphite);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--terra-cotta);
+  outline-offset: 2px;
 }
