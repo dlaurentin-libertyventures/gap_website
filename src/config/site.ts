@@ -7,8 +7,7 @@ export const siteConfig = {
   url: "https://globalaccredit.org",
   email: "info@globalaccredit.org",
   giveButter: {
-    // TODO: Replace with GAP's actual GiveButter URL
-    url: "https://givebutter.com/gap",
+    url: "https://givebutter.com/globalaccreditationproject",
     label: "Support the work",
   },
   report: {
