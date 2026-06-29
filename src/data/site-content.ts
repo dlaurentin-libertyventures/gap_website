@@ -13,24 +13,23 @@ export const leadershipData = [
     name: "Gerard O'Sullivan",
     role: "Executive Director",
     bio: "Gerard is a higher education leader with more than thirty-five years of experience. He has served as faculty, dean, Vice President of Academic Affairs, and Provost, with deep expertise in accreditation, finance, and institutional transformation.",
-    // TODO: Replace with actual headshot at public/images/team/gerard-osullivan.jpg
-    image: "/images/team/placeholder-gerard.jpg",
-  },
-  {
-    id: "pano-kanelos",
-    name: "Pano Kanelos",
-    role: "Principal Consultant",
-    bio: "Pano was the founding president of the University of Austin and former president of St. John's College. He advises educational leaders and philanthropists on founding, reform, and long-term institutional sustainability.",
-    // TODO: Replace with actual headshot at public/images/team/pano-kanelos.jpg
-    image: "/images/team/placeholder-pano.jpg",
+    image: "/images/gerry-osullivan-headshot.png",
   },
   {
     id: "chad-thevenot",
     name: "Chad Thevenot",
-    role: "Principal Consultant",
-    bio: "Chad is the former Executive Director of the Institute for Humane Studies and a founding leader of the University of Austin. He advises leaders building and renewing institutions that advance a free and flourishing society.",
-    // TODO: Replace with actual headshot at public/images/team/chad-thevenot.jpg
-    image: "/images/team/placeholder-chad.jpg",
+    role: "Founding Partner and Managing Director",
+    bio: "Strategic education and nonprofit leader with 30+ years advancing mission-driven organizations.",
+    image:
+      "https://images.squarespace-cdn.com/content/v1/682dc9464d4d034960d4d433/67cdff53-374d-4b76-af02-8b66c134f3ca/64d3ee216e88d7304dfed8fa_Thevenot%2C+Chad.jpg",
+  },
+  {
+    id: "pano-kanelos",
+    name: "Pano Kanelos",
+    role: "Founding Partner",
+    bio: "Nationally recognized academic leader advising on institutional growth and transformation.",
+    image:
+      "https://images.squarespace-cdn.com/content/v1/682dc9464d4d034960d4d433/6adc68ef-2d5c-4edd-a42e-932e57d360ca/64d3ab91752dffd7a5b2537f_Kanelos%2C+Pano+1.jpg",
   },
 ];
 

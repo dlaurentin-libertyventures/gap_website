@@ -52,22 +52,6 @@ export function ProblemSection() {
                 label="Just 4 new colleges per year earn accreditation from U.S. institutional accreditors"
                 source="Source: Education Next"
               />
-              {/* Abstract visualization */}
-              <div className="mt-8" aria-hidden="true">
-                <div className="flex flex-wrap gap-2">
-                  {Array.from({ length: 20 }).map((_, i) => (
-                    <div
-                      key={i}
-                      className={`w-8 h-8 rounded-[4px] ${
-                        i < 4 ? "bg-terra-cotta" : "bg-cloud"
-                      }`}
-                    />
-                  ))}
-                </div>
-                <p className="text-xs text-sandstone mt-2 font-sans">
-                  4 out of 20+ applicants earn accreditation in a given period
-                </p>
-              </div>
             </div>
 
             <div className="pt-4">

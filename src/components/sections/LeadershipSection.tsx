@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { leadershipData } from "@/data/site-content";
 import { SectionEyebrow } from "@/components/ui/SectionEyebrow";
 
@@ -32,25 +33,13 @@ export function LeadershipSection() {
               className="group"
             >
               <div className="relative aspect-[3/4] bg-sandstone/20 rounded-[6px] overflow-hidden mb-4">
-                {/*
-                  TODO: Replace with actual headshot image.
-                  Place headshot at: public/images/team/{person.id}.jpg
-                  Recommended: 600x800px, editorial crop, professional photography
-                  Example: <Image src={`/images/team/${person.id}.jpg`} alt={person.name} fill className="object-cover" />
-                */}
-                <div className="absolute inset-0 flex flex-col items-center justify-center bg-pine/10">
-                  <div className="w-16 h-16 rounded-full bg-sandstone/30 flex items-center justify-center">
-                    <span className="font-display font-bold text-2xl text-forest-green/40">
-                      {person.name
-                        .split(" ")
-                        .map((n) => n[0])
-                        .join("")}
-                    </span>
-                  </div>
-                  <p className="mt-3 font-sans text-xs text-sandstone">
-                    Photo coming soon
-                  </p>
-                </div>
+                <Image
+                  src={person.image}
+                  alt={person.name}
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
               </div>
               <div className="h-0.5 w-8 bg-terra-cotta mb-3" />
               <h3 className="font-display font-bold text-forest-green text-xl">

@@ -22,6 +22,17 @@ export function EditorialStatement() {
             We first need real change in{" "}
             <em className="not-italic text-terra-cotta">accreditation.</em>
           </h2>
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.15 }}
+            className="font-sans text-graphite text-lg md:text-xl leading-relaxed mt-6 md:mt-8 max-w-3xl"
+          >
+            Accreditation determines which institutions can exist, award
+            degrees, and access federal aid—yet today it rewards compliance
+            over outcomes and incumbency over innovation.
+          </motion.p>
           <div className="mt-10 flex items-center gap-4">
             <div className="h-px bg-sandstone flex-1 max-w-[60px]" />
             <p className="font-sans text-sm text-sandstone uppercase tracking-widest">

@@ -98,7 +98,11 @@ export function SiteHeader() {
                 href={siteConfig.giveButter.url}
                 label={siteConfig.giveButter.label}
                 external
-                className="hidden md:inline-flex text-xs px-4 py-2"
+                className={`text-xs px-4 py-2 transition-all duration-300 ${
+                  scrolled
+                    ? "hidden md:inline-flex"
+                    : "hidden"
+                }`}
               />
               <button
                 className="md:hidden p-2 rounded-md min-h-[44px] min-w-[44px] flex items-center justify-center"
