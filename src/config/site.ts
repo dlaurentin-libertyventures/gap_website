@@ -8,7 +8,7 @@ export const siteConfig = {
   email: "info@globalaccredit.org",
   giveButter: {
     url: "https://givebutter.com/globalaccreditationproject",
-    label: "Support the work",
+    label: "Give",
   },
   report: {
     url: "https://docsend.com/view/qwgwuempx92w5nsr",

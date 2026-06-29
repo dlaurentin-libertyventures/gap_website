@@ -65,13 +65,13 @@ export function AboutSection() {
         >
           <PrimaryButton
             href={siteConfig.giveButter.url}
-            label="Support the work"
+            label={siteConfig.giveButter.label}
             variant="clay"
             external
           />
         </motion.div>
 
-        <p className="mt-6 font-sans text-pine text-sm">
+        <p className="mt-6 font-display font-bold text-ivory text-lg md:text-xl leading-snug max-w-2xl mx-auto">
           GAP ensures that innovation and rigor go hand in hand.
         </p>
       </div>

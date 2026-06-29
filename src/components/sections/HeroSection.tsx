@@ -70,16 +70,21 @@ export function HeroSection() {
               aria-hidden="true"
             />
 
-            <motion.p
+            <motion.div
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.35 }}
-              className="font-sans text-ivory/70 text-base md:text-lg leading-relaxed max-w-md mb-8"
+              className="max-w-lg mb-8"
             >
-              Accreditation determines which institutions can exist, award
-              degrees, and access federal aid. Today, it rewards compliance over
-              outcomes and incumbency over innovation. GAP is building a new path.
-            </motion.p>
+              <p className="font-sans text-ivory/70 text-base md:text-lg leading-relaxed">
+                Accreditation determines which institutions can exist, award
+                degrees, and access federal aid. Today, it rewards compliance over
+                outcomes and incumbency over innovation.
+              </p>
+              <p className="font-display font-bold text-ivory text-xl md:text-2xl leading-snug mt-4 md:whitespace-nowrap">
+                GAP is building a new path.
+              </p>
+            </motion.div>
 
             <motion.div
               initial={{ opacity: 0, y: 12 }}
@@ -89,7 +94,7 @@ export function HeroSection() {
             >
               <PrimaryButton
                 href={siteConfig.giveButter.url}
-                label="Support the work"
+                label={siteConfig.giveButter.label}
                 variant="clay"
                 external
               />

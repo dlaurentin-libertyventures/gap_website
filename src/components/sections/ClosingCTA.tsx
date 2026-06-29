@@ -39,7 +39,7 @@ export function ClosingCTA() {
             >
               <PrimaryButton
                 href={siteConfig.giveButter.url}
-                label="Support GAP"
+                label={siteConfig.giveButter.label}
                 variant="clay"
                 external
               />

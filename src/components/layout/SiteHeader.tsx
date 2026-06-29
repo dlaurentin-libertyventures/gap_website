@@ -8,7 +8,7 @@ import { PrimaryButton } from "@/components/ui/PrimaryButton";
 
 const navLinks = [
   { href: "#problem", label: "The Problem" },
-  { href: "#opportunity", label: "Our Approach" },
+  { href: "#opportunity", label: "Our Solution" },
   { href: "#leadership", label: "Leadership" },
   { href: "#about", label: "About" },
 ];
@@ -96,7 +96,7 @@ export function SiteHeader() {
             <div className="flex items-center gap-3">
               <PrimaryButton
                 href={siteConfig.giveButter.url}
-                label="Support the work"
+                label={siteConfig.giveButter.label}
                 external
                 className="hidden md:inline-flex text-xs px-4 py-2"
               />
@@ -168,7 +168,7 @@ export function SiteHeader() {
           <div className="px-4 pb-12">
             <PrimaryButton
               href={siteConfig.giveButter.url}
-              label="Support the work"
+              label={siteConfig.giveButter.label}
               variant="clay"
               external
               className="w-full justify-center"

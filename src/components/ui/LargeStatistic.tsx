@@ -5,9 +5,10 @@ import { useRef } from "react";
 interface LargeStatisticProps {
   value: string;
   label: string;
+  source?: string;
 }
 
-export function LargeStatistic({ value, label }: LargeStatisticProps) {
+export function LargeStatistic({ value, label, source }: LargeStatisticProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -23,9 +24,12 @@ export function LargeStatistic({ value, label }: LargeStatisticProps) {
       >
         {value}
       </motion.span>
-      <p className="font-sans text-graphite text-lg md:text-xl max-w-xs">
+      <p className="font-sans text-graphite text-lg md:text-xl max-w-md">
         {label}
       </p>
+      {source && (
+        <p className="font-sans text-sandstone text-sm mt-1">{source}</p>
+      )}
     </div>
   );
 }

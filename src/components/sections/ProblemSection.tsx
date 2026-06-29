@@ -30,7 +30,7 @@ export function ProblemSection() {
           {/* Scrolling right */}
           <div className="lg:col-span-7 lg:col-start-6 space-y-8">
             {[
-              "This complex and burdensome set of practices and regulations determines which institutions can exist, award degrees, and access federal aid. It rewards compliance over outcomes and incumbency over new ideas.",
+              "Currently, a complex and burdensome set of practices and regulations determines which institutions can exist, award degrees, and access federal aid. The system rewards compliance over outcomes and incumbency over new ideas.",
               "New entrants face expensive, multi-year, and uncertain approval processes, while existing institutions rarely face meaningful consequences for poor performance.",
               "The result is a system that limits entry, fails to enforce exit, and sends weak signals about what actually adds value for students.",
             ].map((text, i) => (
@@ -49,7 +49,8 @@ export function ProblemSection() {
             <div className="pt-8 border-t border-cloud">
               <LargeStatistic
                 value="4"
-                label="New colleges per year earn accreditation."
+                label="Just 4 new colleges per year earn accreditation from U.S. institutional accreditors"
+                source="Source: Education Next"
               />
               {/* Abstract visualization */}
               <div className="mt-8" aria-hidden="true">

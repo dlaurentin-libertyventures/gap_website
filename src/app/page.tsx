@@ -23,7 +23,7 @@ export default function Home() {
         <OpportunitySection />
         <VisionSection />
         <AboutSection />
-        <RoadmapSection />
+        {/* <RoadmapSection /> */}
         <LeadershipSection />
         <ClosingCTA />
       </main>
