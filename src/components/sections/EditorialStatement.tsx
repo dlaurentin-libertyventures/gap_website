@@ -30,8 +30,9 @@ export function EditorialStatement() {
             className="font-sans text-graphite text-lg md:text-xl leading-relaxed mt-6 md:mt-8 max-w-3xl"
           >
             Accreditation determines which institutions can exist, award
-            degrees, and access federal aid—yet today it rewards compliance
-            over outcomes and incumbency over innovation.
+            degrees, and access federal aid—yet today it rewards documentation
+            over practice and protects incumbents while saying little about
+            whether the education itself is any good.
           </motion.p>
           <div className="mt-10 flex items-center gap-4">
             <div className="h-px bg-sandstone flex-1 max-w-[60px]" />

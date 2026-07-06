@@ -25,8 +25,8 @@ export function ReportCTA() {
                 The State of Accreditation
               </h2>
               <p className="font-sans text-graphite text-lg mt-4 mb-8 leading-relaxed">
-                A closer look at the system constraining innovation—and the path
-                toward a better model.
+                A closer look at what the current system rewards, and what a
+                better model would judge instead.
               </p>
               <PrimaryButton
                 href={siteConfig.report.url}

@@ -43,16 +43,16 @@ export const visionData = [
   },
   {
     number: "02",
-    title: "Outcomes Over Inputs",
+    title: "Judge the Practice, Not the Paperwork",
     description:
-      "Evaluate student learning, completion, and long-term success instead of procedural compliance.",
+      "Look at whether the work of teaching and learning is sound, not whether the files are complete.",
     icon: "TrendingUp",
   },
   {
     number: "03",
-    title: "Lean but Effective Quality Assurance",
+    title: "Demanding Where It Counts, Quiet Where It Doesn't",
     description:
-      "Reduce institutional burden while strengthening meaningful accountability.",
+      "Drop box-ticking that tells no one anything and ask instead for honest evidence about the practice itself.",
     icon: "CheckCircle",
   },
   {

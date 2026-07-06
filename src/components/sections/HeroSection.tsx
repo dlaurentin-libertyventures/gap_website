@@ -47,9 +47,9 @@ export function HeroSection() {
               className="font-display font-bold text-ivory leading-[1.06] max-w-2xl"
               style={{ fontSize: "clamp(2.5rem, 4.8vw, 3.75rem)" }}
             >
-              Unlocking an Era of Innovation
+              Judge the Practice,
               <br />
-              and Accountability in Higher Education
+              Not the Paperwork.
             </motion.h1>
 
             <motion.p

@@ -21,8 +21,7 @@ export function ProblemSection() {
                 className="font-display font-bold text-forest-green mt-3 leading-tight"
                 style={{ fontSize: "clamp(1.5rem, 2.5vw, 2.25rem)" }}
               >
-                Accreditation is the choke-point for innovation in higher
-                education.
+                A gatekeeper that measures the wrong things.
               </motion.h2>
             </div>
           </div>
@@ -30,9 +29,9 @@ export function ProblemSection() {
           {/* Scrolling right */}
           <div className="lg:col-span-7 lg:col-start-6 space-y-8">
             {[
-              "Currently, a complex and burdensome set of practices and regulations determines which institutions can exist, award degrees, and access federal aid. The system rewards compliance over outcomes and incumbency over new ideas.",
-              "New entrants face expensive, multi-year, and uncertain approval processes, while existing institutions rarely face meaningful consequences for poor performance.",
-              "The result is a system that limits entry, fails to enforce exit, and sends weak signals about what actually adds value for students.",
+              "The current system asks institutions to prove they followed a long list of procedures. It tells you little about whether teaching and learning are actually healthy.",
+              "Serious new institutions with different missions face years of expensive, uncertain review. Established ones rarely face consequences when the education they offer goes bad.",
+              "Hard to enter, slow to remove failure, and weak at telling anyone what real quality looks like.",
             ].map((text, i) => (
               <motion.p
                 key={i}

@@ -30,12 +30,12 @@ export function AboutSection() {
           className="font-display font-bold text-ivory leading-snug mx-auto"
           style={{ fontSize: "clamp(1.5rem, 3vw, 2.25rem)", maxWidth: "56rem" }}
         >
-          GAP is an international, independent accreditation initiative that
-          recognizes and certifies institutions not just for meeting minimum
-          thresholds, but for leading in{" "}
+          GAP is an independent initiative building a new accreditor, one
+          designed to recognize institutions for{" "}
           <span className="text-clay">
-            creativity, resilience, and measurable impact.
-          </span>
+            the health of their educational practice
+          </span>{" "}
+          rather than the thickness of their compliance files.
         </motion.p>
 
         <motion.div
@@ -72,7 +72,7 @@ export function AboutSection() {
         </motion.div>
 
         <p className="mt-6 font-display font-bold text-ivory text-lg md:text-xl leading-snug max-w-2xl mx-auto">
-          GAP ensures that innovation and rigor go hand in hand.
+          Demanding where it counts, quiet where it doesn&apos;t.
         </p>
       </div>
     </section>

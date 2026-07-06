@@ -5,6 +5,7 @@ import { EditorialStatement } from "@/components/sections/EditorialStatement";
 import { ProblemSection } from "@/components/sections/ProblemSection";
 import { OpportunitySection } from "@/components/sections/OpportunitySection";
 import { VisionSection } from "@/components/sections/VisionSection";
+import { GlobalAimSection } from "@/components/sections/GlobalAimSection";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { RoadmapSection } from "@/components/sections/RoadmapSection";
 import { LeadershipSection } from "@/components/sections/LeadershipSection";
@@ -22,6 +23,7 @@ export default function Home() {
         <ReportCTA />
         <OpportunitySection />
         <VisionSection />
+        <GlobalAimSection />
         <AboutSection />
         <RoadmapSection />
         <LeadershipSection />
